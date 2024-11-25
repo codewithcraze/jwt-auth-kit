@@ -1,0 +1,21 @@
+{
+  "name": "jwt-auth-kit",
+  "version": "1.0.1",
+  "description": "JWTGuard is a robust Node.js authentication package designed to simplify and enhance the security of your application. Built with JSON Web Tokens (JWT), it offers a comprehensive solution for managing user authentication, role-based access control (RBAC), refresh tokens, token blacklisting, and secure password hashing. Whether you're building an admin panel or a user management system, JWTGuard provides the essential tools for safeguarding your application while offering a seamless user experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JWT",
+    "Authentication"
+  ],
+  "author": "Deepak Chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.16"
+  }
+}
